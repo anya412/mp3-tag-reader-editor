@@ -1,11 +1,4 @@
-# 🎵 MP3 Tag Editor & Viewer (C Project)
-
-A **command-line utility** written in **C** to view and modify ID3 tags in MP3 files.  
-This project highlights proficiency in **file I/O**, **binary parsing**, and **modular program design** — core skills for systems, firmware, and embedded engineering.
-
----
-
-## 🧭 Overview
+# MP3 Tag Reader & Editor
 
 The MP3 Tag Editor provides a terminal-based interface for inspecting and updating **MP3 metadata**.  
 It works directly with the **binary structure of ID3v1 tags**, without any external dependencies.
@@ -20,17 +13,17 @@ It works directly with the **binary structure of ID3v1 tags**, without any exter
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 **Read Tags:** Extracts and displays MP3 metadata in a clean, readable format  
-- ✏️ **Edit Tags:** Update specific fields (e.g., title, artist) via simple CLI arguments  
-- 🧩 **Modular Architecture:** Separate modules for viewing, editing, and validation  
-- ⚙️ **Binary File Handling:** Reads and writes directly to ID3 tag blocks  
-- 🚫 **Error Management:** Detects missing files or invalid formats gracefully  
+-  **Read Tags:** Extracts and displays MP3 metadata in a clean, readable format  
+-  **Edit Tags:** Update specific fields (e.g., title, artist) via simple CLI arguments  
+-  **Modular Architecture:** Separate modules for viewing, editing, and validation  
+-  **Binary File Handling:** Reads and writes directly to ID3 tag blocks  
+-  **Error Management:** Detects missing files or invalid formats gracefully  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Details |
 |-----------|----------|
@@ -41,7 +34,7 @@ It works directly with the **binary structure of ID3v1 tags**, without any exter
 
 ---
 
-## 💻 Build Instructions
+## Build Instructions
 
 ### 1. Compile
 ```bash
@@ -49,7 +42,7 @@ gcc main.c view.c edit.c -o mp3tag
 ```
 ---
 
-## 🖥️ Run Instructions
+## Run Instructions
 
 ### 2. Run
 ```bash
@@ -57,7 +50,7 @@ gcc main.c view.c edit.c -o mp3tag
 ```
 ---
 
-### 🧪 Examples
+### Examples
 
 **View all tags**
 ```bash
@@ -65,7 +58,7 @@ gcc main.c view.c edit.c -o mp3tag
 ```
 ---
 
-## 🧩 Supported Tag Codes
+## Supported Tag Codes
 
 | **Tag Code** | **Field Name**     | **Description**                              |
 |:-------------:|:-------------------|:---------------------------------------------|
@@ -75,11 +68,4 @@ gcc main.c view.c edit.c -o mp3tag
 | **TYER**      | Year               | The year the recording was released          |
 | **TCON**      | Genre              | The genre classification of the track        |
 | **COMM**      | Comment            | Additional notes or comments about the track |
-
-## 👩‍💻 Author
-
-**Ananya Jayaprakash**  
-🎓 *B.Tech in Electrical & Electronics Engineering*  
-💡 *Embedded Systems & Firmware Enthusiast*  
-📧 **Email:** [ananyajayaprakash00@gmail.com](mailto:ananyajayaprakash00@gmail.com)
 
